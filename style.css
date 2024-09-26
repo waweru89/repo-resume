@@ -2,47 +2,37 @@
     margin-left: 10px;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     margin: 20px;
-    background-color: rgb(34, 207, 184);
+    background-color: rgb(10, 255, 800);
   }
   
-  h1{
-    color: #c00424;
-    margin-bottom: 15px;
-  }
-  p{
-    color: rgb(37, 1, 30);
-    margin-top: 50px;
-  }
-  h1 ,p{
-    position: absolute;
-    top: 0px;
-    right: 0px;
+  .wrapper{
     justify-content: center;
-    display: block;
-
+    align-items: center;
+    direction: inline;
+    flex-direction: row;
+  }
+  
+.goatp{
+  
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-30%, -50%);
 
   }
   
-  h2 {
-    font-size: 20px;
-    color: rgb(7, 56, 3);
-    margin-top: 50px;
-    p{
-        font-size: 18px;
-        color: rgb(86, 4, 97);
-        margin-top: 50px;
-      }
-  }
-  
-  
-  img {
-    width: 300px;
-    height: 300px;
-    border-radius: 60%;
-    margin: 30px;
-    padding-bottom: 15px;
+.image-wrapper{
+    position: relative;
+      border-radius: 90px;
+      border-style: dotted;
+      image-orientation: from-image;
+      border-radius: 10px 20px 30px 40px
+
+    }
+
+
   }
   
   figcaption {
